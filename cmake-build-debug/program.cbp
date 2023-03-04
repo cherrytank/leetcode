@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="program"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/USER/Desktop/program/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="program">
+				<Option output="C:/Users/USER/Desktop/program/cmake-build-debug/program.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/USER/Desktop/program/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 program"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="program/fast">
+				<Option output="C:/Users/USER/Desktop/program/cmake-build-debug/program.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/USER/Desktop/program/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 program/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/USER/Desktop/program/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/USER/Desktop/program/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/USER/Desktop/program/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/9x9.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/AND.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/C109154214_XY.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/C109154214_axxbxc (2).cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/PT.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/XY.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/aaaa.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/array.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/axxbxc.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/bbb.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/char.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/count.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/for.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/funtion.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/malloc.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/pi.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/pointer.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/product.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/sort.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/switch.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/tast.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/while.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/109th/yooy.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_AND.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_PT.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_btree-1.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_count.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_eval.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_first.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_list_stack.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_sort.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/C109154214_tree.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/HASHLIST.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/POLY (1)_1.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/algorithm.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/cc.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/hash.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/list_queue.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/list_stack.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/list_templete_(1).cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/mgsort.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/practice list.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/quicksort.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/110th/sort3.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/leetcode/1047_Remove All Adjacent Duplicates In String.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/leetcode/1544_Make The String Great.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="C:/Users/USER/Desktop/program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,49 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+struct point{
+	float x,y,d;
+};
+typedef struct point PT;
+float distance(PT,PT);
+PT midPT(PT,PT);
+main(){
+	PT o={0,0,0};
+	PT a[5];
+	for(int i=0;i<5;i++){
+		scanf("%f%f",&a[i].x,&a[i].y);
+	}
+	/*
+	printf("distance AB=%f\n",distance(a[0],a[1]));
+	printf("distance AC=%f\n",distance(a[0],a[2]));
+	printf("distance BC=%f\n",distance(a[1],a[2]));
+	*/
+	/*
+	PT mab =midPT(a[0],a[1]);
+	printf("AB中點為(%f,%f)\n",mab.x,mab.y);
+	PT mac =midPT(a[0],a[2]);
+	printf("AC中點為(%f,%f)\n",mac.x,mac.y);
+	PT mbc =midPT(a[1],a[2]);
+	printf("BC中點為(%f,%f)\n",mbc.x,mbc.y);
+	*/
+	for(int i=0;i<5;i++){
+		a[i].d=distance(a[i],o);
+	}
+	PT F=a[0];
+	for(int i=0;i<5;i++){
+		if(F.d<a[i].d)
+		F = a[i];	
+	}
+	printf("距離原點最遠之座標為(%f,%f)，距離為%f",F.x,F.y,F.d);
+}
+float distance(PT P1,PT P2){
+	float d = sqrt(pow(P1.x-P2.x,2)+pow(P1.y-P2.y,2));
+	return d;
+}
+
+PT midPT(PT P1,PT P2){
+ 	PT m;
+ 	m.x=(P1.x-P2.x)/2;
+ 	m.y=(P1.y-P2.y)/2;
+ 	return m;
+} 
