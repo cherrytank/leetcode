@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -10,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/USER/Desktop/program/leedcode",
-      "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
+      "program": "c:/Users/USER/Desktop/program/leedcode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
